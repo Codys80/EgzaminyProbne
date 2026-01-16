@@ -23,3 +23,5 @@
  - Podział na dwie kolumny jest zrealizowany również z użyciem Bootstrap 
  - Blok wideo ma szerokość równą 100% szerokości kolumny
  - Blok główny ma ustawione margiesy wewnętrzne 48px (z każdej strony)
+
+ ## Zadanie praktyczne II zostało stworzone przez [Marioneq](https://github.com/Marioneq4958)
