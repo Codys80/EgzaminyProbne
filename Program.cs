@@ -23,22 +23,8 @@ namespace EgzaminProbny10ConsoleApp
                         }
                         if ((Convert.ToInt32(tekstJawny[i]) + klucz) < 97)
                         {
-                            tekstZaszyfrowany2[i] = Convert.ToChar(
-                                122 + Convert.ToInt32(tekstJawny[i]) % 96 + klucz//122 - Convert.ToInt32(tekstJawny[i] + klucz) % 97//97 +  Convert.ToInt32(tekstJawny[i] + klucz) % 25  //122 - Convert.ToInt32(tekstJawny[i]) % 97  //Convert.ToInt32(tekstJawny[i]) % 26   //96 + Convert.ToInt32(tekstJawny[i]) % 25 + klucz //122 - (Convert.ToInt32(tekstJawny[i]) % 94 + klucz)  //122 - (Convert.ToInt32(tekstJawny[i]) % 97 + klucz)
-                                );
-                            Console.WriteLine(Convert.ToInt32(tekstJawny[i]) % 96 + klucz);
+                            tekstZaszyfrowany2[i] = Convert.ToChar(122 + Convert.ToInt32(tekstJawny[i]) % 96 + klucz);
                         }
-
-
-
-                        //if ((Convert.ToInt32(tekstJawny[i]) + klucz) > 122)
-                        //    tekstZaszyfrowany2[i] = Convert.ToChar(97 + (klucz - 1) );
-                        //else if ((Convert.ToInt32(tekstJawny[i]) + klucz) < 97)
-                        //    tekstZaszyfrowany2[i] = Convert.ToChar(122 + (klucz + 1));
-
-
-
-
                     }
                     tekstZaszyfrowany = new string(tekstZaszyfrowany2);
                 }
