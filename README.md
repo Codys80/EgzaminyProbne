@@ -10,7 +10,7 @@ Większość arkuszy pobrana została z: [www.praktycznyegzamin.pl](https://www.
 - EgzaminProbny5 - **[INF.04-01-21.06-SG - Aplikacja mobilna "Rejestruj konto"](EgzaminProbny5/)**
 - EgzaminProbny6 - **[INF.04-01-22.06-SG - Aplikacja mobilna "Domek w górach"](EgzaminProbny6/)**
 - EgzaminProbny7 - **[INF.04-01-23.01-SG - Aplikacja desktopowa "Dodaj pracownika](EgzaminProbny7/)**
-- EgzaminProbny8 - **[INF.04-01-23.06-SG - Aplikacja desktopowa "Nadaj Przesyłkę"](EgzaminProbny8/)***
+- EgzaminProbny8 - **[INF.04-01-23.06-SG - Aplikacja desktopowa "Nadaj Przesyłkę"](EgzaminProbny8/)**
 - EgzaminProbny9 - **[INF.04-01-24.01-SG - Aplikacja desktopowa "Wprowadzenie danych do paszportu"](EgzaminProbny9/)**
 - EgzaminProbny10 - **[INF.04-02-25.06-SG - Aplikacja desktopowa "Szyfrowanie"](EgzaminProbny10/)**
 - EgzaminProbny11 - **[Zadanie praktyczne II](EgzaminProbny11/)**
