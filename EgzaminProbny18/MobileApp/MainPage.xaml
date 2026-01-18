@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.MainPage"
+             BackgroundColor="LightBlue">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label
+                Text="Urządzenia domowe"
+                Margin="5"
+                FontSize="Title"
+                HorizontalOptions="CenterAndExpand"
+                TextColor="Black"/>
+            <Label
+                Text="Autor CodyS80"
+                Margin="5"
+                HorizontalOptions="CenterAndExpand"
+                TextColor="Black"/>
+            <HorizontalStackLayout
+                HorizontalOptions="CenterAndExpand"
+                Spacing="10">
+                <Image
+                    Source="pralka.jpg" 
+                    HeightRequest="150"
+                    Margin="20, 20, 20, 0"/>
+                <VerticalStackLayout
+                    Spacing="10">
+                    <Label
+                        Text="Pralka"
+                        FontSize="Title"
+                        TextColor="Black"/>
+                    <Entry
+                        Text="Podaj nr prania 1-12"
+                        x:Name="entNrPrania"
+                        BackgroundColor="SkyBlue"
+                        TextColor="Navy"/>
+                    <Button
+                        Text="Zatwierdź"
+                        Clicked="btnConfirmPralka"
+                        BackgroundColor="RoyalBlue"
+                        Margin="10"/>
+                    <Label
+                        Text="Nr prania: nie podano"
+                        x:Name="lblNrPrania"
+                        TextColor="Black"/>
+                </VerticalStackLayout>
+                <Image
+                    Source="odkurzacz.jpg"
+                    HeightRequest="150"
+                    Margin="20, 20, 20, 0"/>
+                <VerticalStackLayout
+                    Spacing="10">
+                    <Label
+                        Text="Odkurzacz"
+                        FontSize="Title"
+                        TextColor="Black"/>
+                    <Button
+                        Text="Włącz"
+                        Clicked="btnTurnOnVaccume"
+                        BackgroundColor="RoyalBlue"
+                        Margin="10"/>
+                    <Label
+                        Text="Odkurzacz wyłączony"
+                        x:Name="lblVaccumeState"
+                        TextColor="Black"/>
+                    <Label
+                        Text="Status: naładowany"
+                        x:Name="lblVaccumeBattery"
+                        TextColor="Black"/>
+                </VerticalStackLayout>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
