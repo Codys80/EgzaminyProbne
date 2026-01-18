@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label
+                Text="Właściwości czcionki"
+                BackgroundColor="#558B2F"
+                TextColor="White"
+                FontAttributes="Bold"/>
+            <Label
+                Text="Rozmiar: 30"
+                x:Name="lblSizeDisplay"/>
+
+            <Slider
+                Maximum="48"
+                Value="30"
+                x:Name="sldFontSize"
+                ValueChanged="onValueChanged"/>
+            <Label
+                Text=" " 
+                FontSize="30"
+                x:Name="lblMsgDisplay"/>
+            <Button
+                x:Name="brnNext"
+                Text=">>" 
+                BackgroundColor="#558B2F"
+                FontSize="10"
+                TextColor="White"
+                FontAttributes="Bold"
+                Clicked="OnButtonClicked"
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

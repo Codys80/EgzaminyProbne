@@ -18,4 +18,5 @@ Większość arkuszy pobrana została z: [www.praktycznyegzamin.pl](https://www.
 - EgzaminProbny13 - **[INF.04-02-24.06-SG - Aplikacja desktopowa "MojeDźwięki"](EgzaminProbny13/)**
 - EgzaminProbny14 - **[INF.04-03-23.06-SG - Aplikacja web "Formularz filmy"](EgzaminProbny14/)**
 - EgzaminProbny15 - **[INF.04-01-25.01-SG - Aplikacja webowa "Kategorie zdjęć"](EgzaminProbny15/)**
-- EgzaminProbny16 - **[INF.04-01-25.06-SG - Aplikacja desktopowa "Wybieranie kolorów z palety RGB""](EgzaminProbny16/)**
+- EgzaminProbny16 - **[INF.04-01-25.06-SG - Aplikacja desktopowa "Wybieranie kolorów z palety RGB"](EgzaminProbny16/)**
+- EgzaminProbny17 - **[INF.04-02-23.06-SG - Aplikacja mobilna "Właściwości czcionki"](EgzaminProbny17/)**
