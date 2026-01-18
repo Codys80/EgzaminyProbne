@@ -7,8 +7,6 @@ Projekty są oparte na **[inf_04_2025_01_01_SG.pdf](EgzaminyProbny/Arkusze/inf_0
 ## Zawartość
 
 - ConsoleApp/ – aplikacja konsolowa w C#  
-- MobileApp/ – aplikacja mobilna (MAUI) [jeśli dostępna]  
-- WebApp/ – aplikacja webowa (React.js) [jeśli dostępna]  
-- MSTest/ – testy jednostkowe dla projektu [jeśli dostępne]  
+- WebApp/ – aplikacja webowa (React.js)
 
 > Każdy podfolder zawiera odpowiedni kod źródłowy dla danego typu projektu.
