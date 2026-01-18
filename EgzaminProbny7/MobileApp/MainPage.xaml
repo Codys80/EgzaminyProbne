@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EgzaminProbny7MobileApp.MainPage"
+             BackgroundColor="#B0C4DE">
+
+    <ScrollView>
+        <VerticalStackLayout
+            HorizontalOptions="FillAndExpand"
+            Padding="30,0"
+            Spacing="25">
+            <HorizontalStackLayout  Spacing="25" HorizontalOptions="FillAndExpand">
+                <VerticalStackLayout Spacing="25" HorizontalOptions="Start">
+                    <Label
+                        TextColor="Black"
+                        Text="Dane pracownika"
+                        />
+                    <HorizontalStackLayout HorizontalOptions="Center">
+                        <Label
+                            TextColor="Black"
+                            Text="Imię"
+                            />
+                        <Entry
+                            x:Name="entName"
+                            />
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout Spacing="25" HorizontalOptions="Center">
+                        <Label
+                            TextColor="Black"
+                            Text="Nazwisko"
+                            />
+                        <Entry
+                            x:Name="entSurname"
+                            />
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout Spacing="25" HorizontalOptions="Center">
+                        <Label
+                            TextColor="Black"
+                            Text="Stanowisko"
+                            />
+                        <Picker
+                            x:Name="pckRole"
+                            >
+                            <Picker.ItemsSource>
+                                <x:Array Type="{x:Type x:String}" >
+                                    <x:String>Kierownik</x:String>
+                                    <x:String>Starszy programista</x:String>
+                                    <x:String>Młodszy programista</x:String>
+                                    <x:String>Tester</x:String>
+                                </x:Array>
+                            </Picker.ItemsSource>
+                        </Picker>
+                    </HorizontalStackLayout>
+                    
+                </VerticalStackLayout>
+
+                <VerticalStackLayout HorizontalOptions="End">
+                    <Label
+                        TextColor="Black"
+                        Text="Generowanie hasła"
+                        />
+                    <HorizontalStackLayout HorizontalOptions="Center">
+                        <Label
+                            TextColor="Black"
+                            Text="Ile znaków?"
+                            />
+                        <Entry
+                            x:Name="entCharLength"
+                            />
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout HorizontalOptions="Center">
+                        <CheckBox
+                            IsChecked="True"
+                            x:Name="chkChars"
+                            />
+                        <Label
+                            TextColor="Black"
+                            Text="Małe i wielkie litery"
+                            />
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout HorizontalOptions="Center">
+                        <CheckBox
+                            x:Name="chkNumbers"
+                            />
+                        <Label
+                            TextColor="Black"
+                            Text="Cyfry"
+                            />
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout HorizontalOptions="Center">
+                        <CheckBox
+                            x:Name="chkSpecials"
+                            />
+                        <Label
+                            TextColor="Black"
+                            Text="Znaki specjalne"
+                            />
+                    </HorizontalStackLayout>
+                    <Button
+                        BackgroundColor="#4682B4"
+                        TextColor="White"
+                        HorizontalOptions="Center"
+                        x:Name="btnGenerate"
+                        Text="Generuj hasło"
+                        Clicked="onGenerateClicked"
+                        />
+                </VerticalStackLayout>
+            </HorizontalStackLayout>
+            <Button
+                BackgroundColor="#4682B4"
+                TextColor="White"
+                HorizontalOptions="Center"
+                x:Name="btnConfirm"
+                Text="Zatwierdź"
+                Clicked="onConfirmClicked"
+                />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
