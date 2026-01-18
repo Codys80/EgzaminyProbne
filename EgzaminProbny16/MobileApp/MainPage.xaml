@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.MainPage"
+             BackgroundColor="Cornsilk">
+
+    <ScrollView>
+        <VerticalStackLayout
+            HorizontalOptions="Fill"
+            Padding="30,0"
+            Spacing="25">
+            <HorizontalStackLayout 
+                HeightRequest="200" 
+                HorizontalOptions="Fill" 
+                BackgroundColor="White" 
+                x:Name="colorDisplayBlock"
+                Margin="10"/>
+            <Label
+                TextColor="Black"
+                Text="Dobierz kolor suwakami i zapisz przyciskiem"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+            <Label 
+                Grid.Row="0" Grid.Column="0"
+                Text="R" 
+                HorizontalOptions="Start" 
+                TextColor="Black"/>
+            <Slider 
+                Grid.Row="0" Grid.Column="1"
+                Value="100" 
+                Minimum="0" 
+                ClassId="R"
+                Maximum="255" 
+                ValueChanged="OnSliderValueChanged"/>
+            <Label 
+                Grid.Row="0" Grid.Column="2"
+                Text="255" 
+                x:Name="lblRDysplay"
+                HorizontalOptions="End" 
+                TextColor="Black"/>
+            <Label 
+                Grid.Row="1" Grid.Column="0"
+                Text="G" 
+                HorizontalOptions="Start" 
+                TextColor="Black"/>
+            <Slider 
+                Grid.Row="1" Grid.Column="1"
+                Value="100" 
+                Minimum="0" 
+                Maximum="255" 
+                ClassId="G"
+                ValueChanged="OnSliderValueChanged"/>
+            <Label 
+                Grid.Row="1" Grid.Column="2"
+                Text="255" 
+                x:Name="lblGDysplay"
+                HorizontalOptions="End" 
+                TextColor="Black"/>
+            <Label 
+                Grid.Row="2" Grid.Column="0"
+                Text="B" 
+                HorizontalOptions="Start" 
+                TextColor="Black"/>
+            <Slider 
+                Grid.Row="2" Grid.Column="1"
+                Value="100" 
+                Minimum="0" 
+                Maximum="255" 
+                ClassId="B"
+                ValueChanged="OnSliderValueChanged"/>
+            <Label 
+                Grid.Row="2" Grid.Column="2"
+                Text="255" 
+                x:Name="lblBDysplay"
+                HorizontalOptions="End" 
+                TextColor="Black"/>
+            
+            </Grid>
+            <Button
+                Text="Pobierz"
+                TextColor="Black"
+                BackgroundColor="Peru"
+                HorizontalOptions="Center"
+                Clicked="onDownloadClicked"/>
+            <Label
+                Text="255, 255, 255"
+                x:Name="lblRGBs"
+                TextColor="Black"
+                BackgroundColor="White"
+                HorizontalOptions="Center"/>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
