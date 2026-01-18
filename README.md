@@ -6,15 +6,15 @@
  - Do utworzenia aplikacji należy wykorzystać zdjęcia oraz plik dane.txt wypakowane z archiwum
  - Obrazy należy umieścić w folderze assets (egzamin/src/assets lub egzamin/public/assets)
  - Dokument dane.txt zawiera listę obiektów zdjęć, którą należy skopiować jako elementy tablicy. Każdy obiekt zdjęcia zawiera pola:
- - id
- - alt (tekst alternatywny dla zdjęcia)
- - filename (nazwa pliku ze zdjęciem)
- - category (1 dla kategorii kwiaty, 2 zwierzęta, 3 samochody)
- - downloads (liczba pobrań zdjęcia)
+   - id
+   - alt (tekst alternatywny dla zdjęcia)
+   - filename (nazwa pliku ze zdjęciem)
+   - category (1 dla kategorii kwiaty, 2 zwierzęta, 3 samochody)
+   - downloads (liczba pobrań zdjęcia)
  - Komponent składa się z:
- - Nagłówka pierwszego stopnia o treści: „Kategorie zdjęć”
- - Trzech pól switch (checkbox) domyślnie włączonych, o etykietach: Kwiaty, Zwierzęta, Samochody
- - Bloków zdjęć, które są wyświetlane warunkowo, w zależności od ustawień pól switch. Bloki są wyświetlone jeden obok drugiego, zawierają zdjęcie, nagłówek 4 stopnia z liczbą pobrań oraz przycisk o treści „Pobierz”. Układ elementów jest przedstawiony na obrazie 2
+   - Nagłówka pierwszego stopnia o treści: „Kategorie zdjęć”
+   - Trzech pól switch (checkbox) domyślnie włączonych, o etykietach: Kwiaty, Zwierzęta, Samochody
+   - Bloków zdjęć, które są wyświetlane warunkowo, w zależności od ustawień pól switch. Bloki są wyświetlone jeden obok drugiego, zawierają zdjęcie, nagłówek 4 stopnia z liczbą pobrań oraz przycisk o treści „Pobierz”. Układ elementów jest przedstawiony na obrazie 2
  - Zdjęcia są formatowane stylem: marginesy zewnętrzne 5 px, zaokrąglone rogi
  - Przyciski oraz pola switch są stylowane zgodnie z przykładami w tabeli 1
  - W stanie początkowym włączone są wszystkie pola switch co powoduje wyświetlenie wszystkich zdjęć
