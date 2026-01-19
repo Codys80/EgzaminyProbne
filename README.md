@@ -21,3 +21,5 @@ Większość arkuszy pobrana została z: [www.praktycznyegzamin.pl](https://www.
 - EgzaminProbny16 - **[INF.04-01-25.06-SG - Aplikacja desktopowa "Wybieranie kolorów z palety RGB"](EgzaminProbny16/)**
 - EgzaminProbny17 - **[INF.04-02-23.06-SG - Aplikacja mobilna "Właściwości czcionki"](EgzaminProbny17/)**
 - EgzaminProbny18 - **[INF.04-02-25.01-SG - Aplikacja mobilna "Urządzenia domowe"](EgzaminProbny18/)**
+- EgzaminProbny19 - **[INF.04-02-24.01-SG - Aplikacja mobilna "Wizyta u weterynarza"](EgzaminProbny19/)**
+

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.MainPage"
+             BackgroundColor="LightGreen">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label
+                Text="Wizyta u weterynarza"
+                FontSize="Header"
+                BackgroundColor="SeaGreen"
+                Margin="10"
+                TextColor="Black"/>
+            <Entry
+                x:Name="entOwnerName"
+                Placeholder="Imię i nazwisko właścicela"/>
+            <Label
+                Text="Gatunek"
+                TextColor="Black"/>
+            <ListView 
+                x:Name="listView1" 
+                ItemSelected="onItenSelected"/>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+            <Label
+                Grid.Row="0" Grid.Column="0"
+                Text="Ile ma lat? 0"
+                x:Name="lblYearDisplay"
+                TextColor="Black"/>
+            <Slider
+                Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="4"
+                x:Name="sldAge"
+                Maximum="20"
+                Value="0"
+                ValueChanged="onSliderChange"/>
+            </Grid>
+            <Entry
+                x:Name="entPurpose"
+                Placeholder="Cel wizyty"/>
+            <TimePicker  
+                Time="16:00:00"
+                TextColor="Black"
+                x:Name="timePicker"/>
+            <Button
+                x:Name="btnOk"
+                Text="Ok" 
+                Clicked="OnOkClicked"
+                TextColor="Black"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
