@@ -1,6 +1,6 @@
 ﻿# EgzaminyProbne 
 
-Repozytorium zawierające moje moją interpretacje rozwiązań egzaminów zawodowych INF0.4
+Repozytorium zawierające moje interpretacje rozwiązań egzaminów zawodowych INF0.4
 
 Każdy folder EgzaminProbnyX/ posiada plik README.md z linkiem do arkusza na którym się opiera
 
@@ -22,4 +22,5 @@ Większość arkuszy pobrana została z: [www.praktycznyegzamin.pl](https://www.
 - EgzaminProbny17 - **[INF.04-02-23.06-SG - Aplikacja mobilna "Właściwości czcionki"](EgzaminProbny17/)**
 - EgzaminProbny18 - **[INF.04-02-25.01-SG - Aplikacja mobilna "Urządzenia domowe"](EgzaminProbny18/)**
 - EgzaminProbny19 - **[INF.04-02-24.01-SG - Aplikacja mobilna "Wizyta u weterynarza"](EgzaminProbny19/)**
+- EgzaminProbny20 - **[INF.04-02-26.01-SG - Aplikacja mobilna "Wizyta u weterynarza"](EgzaminProbny20/)**
 

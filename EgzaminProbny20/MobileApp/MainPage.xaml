@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+         Padding="30,0"
+         Spacing="25">
+            <Image
+             Source="zad1.jpg"
+             x:Name="imgDisplay"
+             HorizontalOptions="CenterAndExpand"/>
+
+            <Label
+             HorizontalOptions="CenterAndExpand"
+             Text="Które to schronisko"
+             x:Name="lblDisplay"
+             TextColor="White"/>
+
+            <RadioButton HorizontalOptions="Start" TextColor="White" Value="A" CheckedChanged="OnRadioChange" GroupName="radioGroupOdp" Content="Na Rysiance"/>
+            <RadioButton HorizontalOptions="Start" TextColor="White" Value="B" CheckedChanged="OnRadioChange" GroupName="radioGroupOdp" Content="Na Wielkiej Raczy"/>
+            <RadioButton HorizontalOptions="Start" TextColor="White" Value="C" CheckedChanged="OnRadioChange" GroupName="radioGroupOdp" Content="Na Wielkiej Rycerzowej"/>
+
+            <Button
+             x:Name="btnNext"
+             Text="Dalej" 
+             Clicked="OnNextClicked"
+             HorizontalOptions="CenterAndExpand" 
+             TextColor="White"/>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

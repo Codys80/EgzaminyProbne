@@ -1,7 +1,7 @@
 ﻿# EgzaminProbny18
 
 Ten folder zawiera wszystkie projekty powiązane z egzaminem nr 18.  
-Projekty są oparte na **[inf_04_2025_01_02_SG.pdf](EgzaminyProbny/Arkusze/inf_04_2025_01_02_SG.pdf)**
+Projekty są oparte na **[inf_04_2025_01_02_SG.pdf](/EgzaminyProbne/Arkusze/inf_04_2025_01_02_SG.pdf)**
 
 
 ## Zawartość
